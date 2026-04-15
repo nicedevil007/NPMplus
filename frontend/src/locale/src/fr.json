@@ -374,6 +374,108 @@
 	"login.title": {
 		"defaultMessage": "Connectez-vous à votre compte"
 	},
+	"logs": {
+		"defaultMessage": "Journaux"
+	},
+	"logs.access": {
+		"defaultMessage": "Journaux d'accès"
+	},
+	"logs.action.copied": {
+		"defaultMessage": "Copié !"
+	},
+	"logs.action.copy": {
+		"defaultMessage": "Copier dans le presse-papiers"
+	},
+	"logs.column.action": {
+		"defaultMessage": "Action"
+	},
+	"logs.column.bytes": {
+		"defaultMessage": "Octets"
+	},
+	"logs.column.client-ip": {
+		"defaultMessage": "IP client"
+	},
+	"logs.column.duration": {
+		"defaultMessage": "Durée"
+	},
+	"logs.column.host": {
+		"defaultMessage": "Hôte"
+	},
+	"logs.column.incident-type": {
+		"defaultMessage": "Type d'incident"
+	},
+	"logs.column.level": {
+		"defaultMessage": "Niveau"
+	},
+	"logs.column.matched": {
+		"defaultMessage": "Correspondance"
+	},
+	"logs.column.message": {
+		"defaultMessage": "Message"
+	},
+	"logs.column.method": {
+		"defaultMessage": "Méthode"
+	},
+	"logs.column.origin": {
+		"defaultMessage": "Origine"
+	},
+	"logs.column.path": {
+		"defaultMessage": "Chemin"
+	},
+	"logs.column.scenario": {
+		"defaultMessage": "Scénario"
+	},
+	"logs.column.scope": {
+		"defaultMessage": "Portée"
+	},
+	"logs.column.server": {
+		"defaultMessage": "Serveur"
+	},
+	"logs.column.severity": {
+		"defaultMessage": "Gravité"
+	},
+	"logs.column.status": {
+		"defaultMessage": "Statut"
+	},
+	"logs.column.time": {
+		"defaultMessage": "Heure"
+	},
+	"logs.column.value": {
+		"defaultMessage": "Valeur"
+	},
+	"logs.crowdsec": {
+		"defaultMessage": "Décisions CrowdSec"
+	},
+	"logs.crowdsec.unavailable": {
+		"defaultMessage": "CrowdSec n'est pas configuré. Montez /opt/crowdsec/conf dans le conteneur NPMplus pour activer cette vue."
+	},
+	"logs.errors": {
+		"defaultMessage": "Journaux d'erreurs"
+	},
+	"logs.filter.clear": {
+		"defaultMessage": "Effacer le filtre de date"
+	},
+	"logs.filter.from": {
+		"defaultMessage": "De"
+	},
+	"logs.filter.to": {
+		"defaultMessage": "À"
+	},
+	"logs.pagination.next": {
+		"defaultMessage": "Suiv."
+	},
+	"logs.pagination.page-of": {
+		"defaultMessage": "{page} / {total}"
+	},
+	"logs.pagination.prev": {
+		"defaultMessage": "Préc."
+	},
+	"logs.pagination.range": {
+		"defaultMessage": "Affichage de {first}-{last} sur {total}"
+	},
+	"logs.waf": {
+		"defaultMessage": "Journaux OpenAppSec"
+	},
 	"nginx-config.label": {
 		"defaultMessage": "Configuration Nginx personnalisée"
 	},

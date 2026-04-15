@@ -401,6 +401,108 @@
 	"login.title": {
 		"defaultMessage": "Вход в акаунта"
 	},
+	"logs": {
+		"defaultMessage": "Логове"
+	},
+	"logs.access": {
+		"defaultMessage": "Логове за достъп"
+	},
+	"logs.action.copied": {
+		"defaultMessage": "Копирано!"
+	},
+	"logs.action.copy": {
+		"defaultMessage": "Копиране в клипборда"
+	},
+	"logs.column.action": {
+		"defaultMessage": "Действие"
+	},
+	"logs.column.bytes": {
+		"defaultMessage": "Байтове"
+	},
+	"logs.column.client-ip": {
+		"defaultMessage": "IP на клиент"
+	},
+	"logs.column.duration": {
+		"defaultMessage": "Продължителност"
+	},
+	"logs.column.host": {
+		"defaultMessage": "Хост"
+	},
+	"logs.column.incident-type": {
+		"defaultMessage": "Тип инцидент"
+	},
+	"logs.column.level": {
+		"defaultMessage": "Ниво"
+	},
+	"logs.column.matched": {
+		"defaultMessage": "Съвпадение"
+	},
+	"logs.column.message": {
+		"defaultMessage": "Съобщение"
+	},
+	"logs.column.method": {
+		"defaultMessage": "Метод"
+	},
+	"logs.column.origin": {
+		"defaultMessage": "Произход"
+	},
+	"logs.column.path": {
+		"defaultMessage": "Път"
+	},
+	"logs.column.scenario": {
+		"defaultMessage": "Сценарий"
+	},
+	"logs.column.scope": {
+		"defaultMessage": "Обхват"
+	},
+	"logs.column.server": {
+		"defaultMessage": "Сървър"
+	},
+	"logs.column.severity": {
+		"defaultMessage": "Сериозност"
+	},
+	"logs.column.status": {
+		"defaultMessage": "Статус"
+	},
+	"logs.column.time": {
+		"defaultMessage": "Време"
+	},
+	"logs.column.value": {
+		"defaultMessage": "Стойност"
+	},
+	"logs.crowdsec": {
+		"defaultMessage": "CrowdSec решения"
+	},
+	"logs.crowdsec.unavailable": {
+		"defaultMessage": "CrowdSec не е конфигуриран. Монтирайте /opt/crowdsec/conf в NPMplus контейнера, за да активирате този изглед."
+	},
+	"logs.errors": {
+		"defaultMessage": "Логове на грешки"
+	},
+	"logs.filter.clear": {
+		"defaultMessage": "Изчистване на филтъра за дата"
+	},
+	"logs.filter.from": {
+		"defaultMessage": "От"
+	},
+	"logs.filter.to": {
+		"defaultMessage": "До"
+	},
+	"logs.pagination.next": {
+		"defaultMessage": "Напред"
+	},
+	"logs.pagination.page-of": {
+		"defaultMessage": "{page} / {total}"
+	},
+	"logs.pagination.prev": {
+		"defaultMessage": "Назад"
+	},
+	"logs.pagination.range": {
+		"defaultMessage": "{first}-{last} от {total}"
+	},
+	"logs.waf": {
+		"defaultMessage": "OpenAppSec логове"
+	},
 	"nginx-config.label": {
 		"defaultMessage": "Персонализирана Nginx конфигурация"
 	},

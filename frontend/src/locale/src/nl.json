@@ -389,6 +389,108 @@
 	"login.title": {
 		"defaultMessage": "Inloggen"
 	},
+	"logs": {
+		"defaultMessage": "Logs"
+	},
+	"logs.access": {
+		"defaultMessage": "Toegangslogs"
+	},
+	"logs.action.copied": {
+		"defaultMessage": "Gekopieerd!"
+	},
+	"logs.action.copy": {
+		"defaultMessage": "Kopiëren naar klembord"
+	},
+	"logs.column.action": {
+		"defaultMessage": "Actie"
+	},
+	"logs.column.bytes": {
+		"defaultMessage": "Bytes"
+	},
+	"logs.column.client-ip": {
+		"defaultMessage": "Client-IP"
+	},
+	"logs.column.duration": {
+		"defaultMessage": "Duur"
+	},
+	"logs.column.host": {
+		"defaultMessage": "Host"
+	},
+	"logs.column.incident-type": {
+		"defaultMessage": "Type incident"
+	},
+	"logs.column.level": {
+		"defaultMessage": "Niveau"
+	},
+	"logs.column.matched": {
+		"defaultMessage": "Overeenkomst"
+	},
+	"logs.column.message": {
+		"defaultMessage": "Bericht"
+	},
+	"logs.column.method": {
+		"defaultMessage": "Methode"
+	},
+	"logs.column.origin": {
+		"defaultMessage": "Oorsprong"
+	},
+	"logs.column.path": {
+		"defaultMessage": "Pad"
+	},
+	"logs.column.scenario": {
+		"defaultMessage": "Scenario"
+	},
+	"logs.column.scope": {
+		"defaultMessage": "Bereik"
+	},
+	"logs.column.server": {
+		"defaultMessage": "Server"
+	},
+	"logs.column.severity": {
+		"defaultMessage": "Ernst"
+	},
+	"logs.column.status": {
+		"defaultMessage": "Status"
+	},
+	"logs.column.time": {
+		"defaultMessage": "Tijd"
+	},
+	"logs.column.value": {
+		"defaultMessage": "Waarde"
+	},
+	"logs.crowdsec": {
+		"defaultMessage": "CrowdSec-beslissingen"
+	},
+	"logs.crowdsec.unavailable": {
+		"defaultMessage": "CrowdSec is niet geconfigureerd. Koppel /opt/crowdsec/conf aan de NPMplus-container om deze weergave in te schakelen."
+	},
+	"logs.errors": {
+		"defaultMessage": "Foutlogs"
+	},
+	"logs.filter.clear": {
+		"defaultMessage": "Datumfilter wissen"
+	},
+	"logs.filter.from": {
+		"defaultMessage": "Van"
+	},
+	"logs.filter.to": {
+		"defaultMessage": "Tot"
+	},
+	"logs.pagination.next": {
+		"defaultMessage": "Volgende"
+	},
+	"logs.pagination.page-of": {
+		"defaultMessage": "{page} / {total}"
+	},
+	"logs.pagination.prev": {
+		"defaultMessage": "Vorige"
+	},
+	"logs.pagination.range": {
+		"defaultMessage": "{first}-{last} van {total}"
+	},
+	"logs.waf": {
+		"defaultMessage": "OpenAppSec logs"
+	},
 	"nginx-config.label": {
 		"defaultMessage": "Aangepaste Nginx Configuratie"
 	},

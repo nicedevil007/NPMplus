@@ -401,6 +401,108 @@
 	"login.title": {
 		"defaultMessage": "로그인"
 	},
+	"logs": {
+		"defaultMessage": "로그"
+	},
+	"logs.access": {
+		"defaultMessage": "액세스 로그"
+	},
+	"logs.action.copied": {
+		"defaultMessage": "복사됨!"
+	},
+	"logs.action.copy": {
+		"defaultMessage": "클립보드에 복사"
+	},
+	"logs.column.action": {
+		"defaultMessage": "작업"
+	},
+	"logs.column.bytes": {
+		"defaultMessage": "바이트"
+	},
+	"logs.column.client-ip": {
+		"defaultMessage": "클라이언트 IP"
+	},
+	"logs.column.duration": {
+		"defaultMessage": "기간"
+	},
+	"logs.column.host": {
+		"defaultMessage": "호스트"
+	},
+	"logs.column.incident-type": {
+		"defaultMessage": "사고 유형"
+	},
+	"logs.column.level": {
+		"defaultMessage": "레벨"
+	},
+	"logs.column.matched": {
+		"defaultMessage": "일치"
+	},
+	"logs.column.message": {
+		"defaultMessage": "메시지"
+	},
+	"logs.column.method": {
+		"defaultMessage": "메서드"
+	},
+	"logs.column.origin": {
+		"defaultMessage": "출처"
+	},
+	"logs.column.path": {
+		"defaultMessage": "경로"
+	},
+	"logs.column.scenario": {
+		"defaultMessage": "시나리오"
+	},
+	"logs.column.scope": {
+		"defaultMessage": "범위"
+	},
+	"logs.column.server": {
+		"defaultMessage": "서버"
+	},
+	"logs.column.severity": {
+		"defaultMessage": "심각도"
+	},
+	"logs.column.status": {
+		"defaultMessage": "상태"
+	},
+	"logs.column.time": {
+		"defaultMessage": "시간"
+	},
+	"logs.column.value": {
+		"defaultMessage": "값"
+	},
+	"logs.crowdsec": {
+		"defaultMessage": "CrowdSec 결정"
+	},
+	"logs.crowdsec.unavailable": {
+		"defaultMessage": "CrowdSec이 구성되지 않았습니다. 이 보기를 활성화하려면 /opt/crowdsec/conf를 NPMplus 컨테이너에 마운트하세요."
+	},
+	"logs.errors": {
+		"defaultMessage": "오류 로그"
+	},
+	"logs.filter.clear": {
+		"defaultMessage": "날짜 필터 지우기"
+	},
+	"logs.filter.from": {
+		"defaultMessage": "시작"
+	},
+	"logs.filter.to": {
+		"defaultMessage": "종료"
+	},
+	"logs.pagination.next": {
+		"defaultMessage": "다음"
+	},
+	"logs.pagination.page-of": {
+		"defaultMessage": "{page} / {total}"
+	},
+	"logs.pagination.prev": {
+		"defaultMessage": "이전"
+	},
+	"logs.pagination.range": {
+		"defaultMessage": "{total}개 중 {first}-{last}"
+	},
+	"logs.waf": {
+		"defaultMessage": "OpenAppSec 로그"
+	},
 	"nginx-config.label": {
 		"defaultMessage": "사용자 지정 Nginx 설정"
 	},

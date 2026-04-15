@@ -389,6 +389,108 @@
 	"login.title": {
 		"defaultMessage": "Hesabınıza giriş yapın"
 	},
+	"logs": {
+		"defaultMessage": "Günlükler"
+	},
+	"logs.access": {
+		"defaultMessage": "Erişim günlükleri"
+	},
+	"logs.action.copied": {
+		"defaultMessage": "Kopyalandı!"
+	},
+	"logs.action.copy": {
+		"defaultMessage": "Panoya kopyala"
+	},
+	"logs.column.action": {
+		"defaultMessage": "Eylem"
+	},
+	"logs.column.bytes": {
+		"defaultMessage": "Bayt"
+	},
+	"logs.column.client-ip": {
+		"defaultMessage": "İstemci IP"
+	},
+	"logs.column.duration": {
+		"defaultMessage": "Süre"
+	},
+	"logs.column.host": {
+		"defaultMessage": "Host"
+	},
+	"logs.column.incident-type": {
+		"defaultMessage": "Olay türü"
+	},
+	"logs.column.level": {
+		"defaultMessage": "Seviye"
+	},
+	"logs.column.matched": {
+		"defaultMessage": "Eşleşme"
+	},
+	"logs.column.message": {
+		"defaultMessage": "Mesaj"
+	},
+	"logs.column.method": {
+		"defaultMessage": "Yöntem"
+	},
+	"logs.column.origin": {
+		"defaultMessage": "Kaynak"
+	},
+	"logs.column.path": {
+		"defaultMessage": "Yol"
+	},
+	"logs.column.scenario": {
+		"defaultMessage": "Senaryo"
+	},
+	"logs.column.scope": {
+		"defaultMessage": "Kapsam"
+	},
+	"logs.column.server": {
+		"defaultMessage": "Sunucu"
+	},
+	"logs.column.severity": {
+		"defaultMessage": "Önem"
+	},
+	"logs.column.status": {
+		"defaultMessage": "Durum"
+	},
+	"logs.column.time": {
+		"defaultMessage": "Zaman"
+	},
+	"logs.column.value": {
+		"defaultMessage": "Değer"
+	},
+	"logs.crowdsec": {
+		"defaultMessage": "CrowdSec kararları"
+	},
+	"logs.crowdsec.unavailable": {
+		"defaultMessage": "CrowdSec yapılandırılmadı. Bu görünümü etkinleştirmek için /opt/crowdsec/conf dizinini NPMplus konteynerine bağlayın."
+	},
+	"logs.errors": {
+		"defaultMessage": "Hata günlükleri"
+	},
+	"logs.filter.clear": {
+		"defaultMessage": "Tarih filtresini temizle"
+	},
+	"logs.filter.from": {
+		"defaultMessage": "Başlangıç"
+	},
+	"logs.filter.to": {
+		"defaultMessage": "Bitiş"
+	},
+	"logs.pagination.next": {
+		"defaultMessage": "Sonraki"
+	},
+	"logs.pagination.page-of": {
+		"defaultMessage": "{page} / {total}"
+	},
+	"logs.pagination.prev": {
+		"defaultMessage": "Önceki"
+	},
+	"logs.pagination.range": {
+		"defaultMessage": "Toplam {total} kaydın {first}-{last} arası gösteriliyor"
+	},
+	"logs.waf": {
+		"defaultMessage": "OpenAppSec günlükleri"
+	},
 	"nginx-config.label": {
 		"defaultMessage": "Özel Nginx Yapılandırması"
 	},

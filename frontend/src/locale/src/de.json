@@ -404,6 +404,108 @@
 	"login.title": {
 		"defaultMessage": "Anmelden"
 	},
+	"logs": {
+		"defaultMessage": "Logs"
+	},
+	"logs.access": {
+		"defaultMessage": "Zugriffs-Logs"
+	},
+	"logs.action.copied": {
+		"defaultMessage": "Kopiert!"
+	},
+	"logs.action.copy": {
+		"defaultMessage": "In Zwischenablage kopieren"
+	},
+	"logs.column.action": {
+		"defaultMessage": "Aktion"
+	},
+	"logs.column.bytes": {
+		"defaultMessage": "Bytes"
+	},
+	"logs.column.client-ip": {
+		"defaultMessage": "Client-IP"
+	},
+	"logs.column.duration": {
+		"defaultMessage": "Dauer"
+	},
+	"logs.column.host": {
+		"defaultMessage": "Host"
+	},
+	"logs.column.incident-type": {
+		"defaultMessage": "Vorfallstyp"
+	},
+	"logs.column.level": {
+		"defaultMessage": "Level"
+	},
+	"logs.column.matched": {
+		"defaultMessage": "Treffer"
+	},
+	"logs.column.message": {
+		"defaultMessage": "Meldung"
+	},
+	"logs.column.method": {
+		"defaultMessage": "Methode"
+	},
+	"logs.column.origin": {
+		"defaultMessage": "Quelle"
+	},
+	"logs.column.path": {
+		"defaultMessage": "Pfad"
+	},
+	"logs.column.scenario": {
+		"defaultMessage": "Szenario"
+	},
+	"logs.column.scope": {
+		"defaultMessage": "Geltungsbereich"
+	},
+	"logs.column.server": {
+		"defaultMessage": "Server"
+	},
+	"logs.column.severity": {
+		"defaultMessage": "Schweregrad"
+	},
+	"logs.column.status": {
+		"defaultMessage": "Status"
+	},
+	"logs.column.time": {
+		"defaultMessage": "Zeit"
+	},
+	"logs.column.value": {
+		"defaultMessage": "Wert"
+	},
+	"logs.crowdsec": {
+		"defaultMessage": "CrowdSec-Entscheidungen"
+	},
+	"logs.crowdsec.unavailable": {
+		"defaultMessage": "CrowdSec ist nicht konfiguriert. Binde /opt/crowdsec/conf in den NPMplus-Container ein, um diese Ansicht zu aktivieren."
+	},
+	"logs.errors": {
+		"defaultMessage": "Fehler-Logs"
+	},
+	"logs.filter.clear": {
+		"defaultMessage": "Zeitfilter zurücksetzen"
+	},
+	"logs.filter.from": {
+		"defaultMessage": "Von"
+	},
+	"logs.filter.to": {
+		"defaultMessage": "Bis"
+	},
+	"logs.pagination.next": {
+		"defaultMessage": "Weiter"
+	},
+	"logs.pagination.page-of": {
+		"defaultMessage": "{page} / {total}"
+	},
+	"logs.pagination.prev": {
+		"defaultMessage": "Zurück"
+	},
+	"logs.pagination.range": {
+		"defaultMessage": "{first}–{last} von {total}"
+	},
+	"logs.waf": {
+		"defaultMessage": "OpenAppSec-Logs"
+	},
 	"nginx-config.label": {
 		"defaultMessage": "Benutzerdefinierte Nginx Konfiguration"
 	},

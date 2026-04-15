@@ -389,6 +389,108 @@
 	"login.title": {
 		"defaultMessage": "アカウントにログイン"
 	},
+	"logs": {
+		"defaultMessage": "ログ"
+	},
+	"logs.access": {
+		"defaultMessage": "アクセスログ"
+	},
+	"logs.action.copied": {
+		"defaultMessage": "コピーしました!"
+	},
+	"logs.action.copy": {
+		"defaultMessage": "クリップボードにコピー"
+	},
+	"logs.column.action": {
+		"defaultMessage": "アクション"
+	},
+	"logs.column.bytes": {
+		"defaultMessage": "バイト"
+	},
+	"logs.column.client-ip": {
+		"defaultMessage": "クライアント IP"
+	},
+	"logs.column.duration": {
+		"defaultMessage": "期間"
+	},
+	"logs.column.host": {
+		"defaultMessage": "ホスト"
+	},
+	"logs.column.incident-type": {
+		"defaultMessage": "インシデント種別"
+	},
+	"logs.column.level": {
+		"defaultMessage": "レベル"
+	},
+	"logs.column.matched": {
+		"defaultMessage": "一致"
+	},
+	"logs.column.message": {
+		"defaultMessage": "メッセージ"
+	},
+	"logs.column.method": {
+		"defaultMessage": "メソッド"
+	},
+	"logs.column.origin": {
+		"defaultMessage": "発生源"
+	},
+	"logs.column.path": {
+		"defaultMessage": "パス"
+	},
+	"logs.column.scenario": {
+		"defaultMessage": "シナリオ"
+	},
+	"logs.column.scope": {
+		"defaultMessage": "スコープ"
+	},
+	"logs.column.server": {
+		"defaultMessage": "サーバー"
+	},
+	"logs.column.severity": {
+		"defaultMessage": "重大度"
+	},
+	"logs.column.status": {
+		"defaultMessage": "ステータス"
+	},
+	"logs.column.time": {
+		"defaultMessage": "時刻"
+	},
+	"logs.column.value": {
+		"defaultMessage": "値"
+	},
+	"logs.crowdsec": {
+		"defaultMessage": "CrowdSec 決定"
+	},
+	"logs.crowdsec.unavailable": {
+		"defaultMessage": "CrowdSec は設定されていません。このビューを有効にするには、/opt/crowdsec/conf を NPMplus コンテナにマウントしてください。"
+	},
+	"logs.errors": {
+		"defaultMessage": "エラーログ"
+	},
+	"logs.filter.clear": {
+		"defaultMessage": "日付フィルターをクリア"
+	},
+	"logs.filter.from": {
+		"defaultMessage": "開始"
+	},
+	"logs.filter.to": {
+		"defaultMessage": "終了"
+	},
+	"logs.pagination.next": {
+		"defaultMessage": "次へ"
+	},
+	"logs.pagination.page-of": {
+		"defaultMessage": "{page} / {total}"
+	},
+	"logs.pagination.prev": {
+		"defaultMessage": "前へ"
+	},
+	"logs.pagination.range": {
+		"defaultMessage": "{total} 件中 {first}-{last} 件を表示"
+	},
+	"logs.waf": {
+		"defaultMessage": "OpenAppSec ログ"
+	},
 	"nginx-config.label": {
 		"defaultMessage": "カスタムNginx設定"
 	},

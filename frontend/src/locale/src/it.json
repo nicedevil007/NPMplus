@@ -389,6 +389,108 @@
 	"login.title": {
 		"defaultMessage": "Accedi al tuo account"
 	},
+	"logs": {
+		"defaultMessage": "Log"
+	},
+	"logs.access": {
+		"defaultMessage": "Log di accesso"
+	},
+	"logs.action.copied": {
+		"defaultMessage": "Copiato!"
+	},
+	"logs.action.copy": {
+		"defaultMessage": "Copia negli appunti"
+	},
+	"logs.column.action": {
+		"defaultMessage": "Azione"
+	},
+	"logs.column.bytes": {
+		"defaultMessage": "Byte"
+	},
+	"logs.column.client-ip": {
+		"defaultMessage": "IP client"
+	},
+	"logs.column.duration": {
+		"defaultMessage": "Durata"
+	},
+	"logs.column.host": {
+		"defaultMessage": "Host"
+	},
+	"logs.column.incident-type": {
+		"defaultMessage": "Tipo di incidente"
+	},
+	"logs.column.level": {
+		"defaultMessage": "Livello"
+	},
+	"logs.column.matched": {
+		"defaultMessage": "Corrispondenza"
+	},
+	"logs.column.message": {
+		"defaultMessage": "Messaggio"
+	},
+	"logs.column.method": {
+		"defaultMessage": "Metodo"
+	},
+	"logs.column.origin": {
+		"defaultMessage": "Origine"
+	},
+	"logs.column.path": {
+		"defaultMessage": "Percorso"
+	},
+	"logs.column.scenario": {
+		"defaultMessage": "Scenario"
+	},
+	"logs.column.scope": {
+		"defaultMessage": "Ambito"
+	},
+	"logs.column.server": {
+		"defaultMessage": "Server"
+	},
+	"logs.column.severity": {
+		"defaultMessage": "Gravità"
+	},
+	"logs.column.status": {
+		"defaultMessage": "Stato"
+	},
+	"logs.column.time": {
+		"defaultMessage": "Ora"
+	},
+	"logs.column.value": {
+		"defaultMessage": "Valore"
+	},
+	"logs.crowdsec": {
+		"defaultMessage": "Decisioni CrowdSec"
+	},
+	"logs.crowdsec.unavailable": {
+		"defaultMessage": "CrowdSec non è configurato. Monta /opt/crowdsec/conf nel container NPMplus per attivare questa vista."
+	},
+	"logs.errors": {
+		"defaultMessage": "Log degli errori"
+	},
+	"logs.filter.clear": {
+		"defaultMessage": "Cancella filtro data"
+	},
+	"logs.filter.from": {
+		"defaultMessage": "Da"
+	},
+	"logs.filter.to": {
+		"defaultMessage": "A"
+	},
+	"logs.pagination.next": {
+		"defaultMessage": "Succ."
+	},
+	"logs.pagination.page-of": {
+		"defaultMessage": "{page} / {total}"
+	},
+	"logs.pagination.prev": {
+		"defaultMessage": "Prec."
+	},
+	"logs.pagination.range": {
+		"defaultMessage": "{first}-{last} di {total}"
+	},
+	"logs.waf": {
+		"defaultMessage": "Log OpenAppSec"
+	},
 	"nginx-config.label": {
 		"defaultMessage": "Configurazione Nginx Personalizzata"
 	},

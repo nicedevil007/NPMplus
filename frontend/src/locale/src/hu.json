@@ -473,6 +473,108 @@
 	"login.title": {
 		"defaultMessage": "Jelentkezzen be a fiókjába"
 	},
+	"logs": {
+		"defaultMessage": "Naplók"
+	},
+	"logs.access": {
+		"defaultMessage": "Hozzáférési naplók"
+	},
+	"logs.action.copied": {
+		"defaultMessage": "Másolva!"
+	},
+	"logs.action.copy": {
+		"defaultMessage": "Másolás vágólapra"
+	},
+	"logs.column.action": {
+		"defaultMessage": "Művelet"
+	},
+	"logs.column.bytes": {
+		"defaultMessage": "Bájtok"
+	},
+	"logs.column.client-ip": {
+		"defaultMessage": "Ügyfél IP"
+	},
+	"logs.column.duration": {
+		"defaultMessage": "Időtartam"
+	},
+	"logs.column.host": {
+		"defaultMessage": "Gazda"
+	},
+	"logs.column.incident-type": {
+		"defaultMessage": "Incidens típusa"
+	},
+	"logs.column.level": {
+		"defaultMessage": "Szint"
+	},
+	"logs.column.matched": {
+		"defaultMessage": "Találat"
+	},
+	"logs.column.message": {
+		"defaultMessage": "Üzenet"
+	},
+	"logs.column.method": {
+		"defaultMessage": "Metódus"
+	},
+	"logs.column.origin": {
+		"defaultMessage": "Eredet"
+	},
+	"logs.column.path": {
+		"defaultMessage": "Útvonal"
+	},
+	"logs.column.scenario": {
+		"defaultMessage": "Forgatókönyv"
+	},
+	"logs.column.scope": {
+		"defaultMessage": "Hatókör"
+	},
+	"logs.column.server": {
+		"defaultMessage": "Szerver"
+	},
+	"logs.column.severity": {
+		"defaultMessage": "Súlyosság"
+	},
+	"logs.column.status": {
+		"defaultMessage": "Állapot"
+	},
+	"logs.column.time": {
+		"defaultMessage": "Idő"
+	},
+	"logs.column.value": {
+		"defaultMessage": "Érték"
+	},
+	"logs.crowdsec": {
+		"defaultMessage": "CrowdSec döntések"
+	},
+	"logs.crowdsec.unavailable": {
+		"defaultMessage": "A CrowdSec nincs konfigurálva. Csatolja a /opt/crowdsec/conf mappát az NPMplus konténerbe a nézet aktiválásához."
+	},
+	"logs.errors": {
+		"defaultMessage": "Hibanaplók"
+	},
+	"logs.filter.clear": {
+		"defaultMessage": "Dátumszűrő törlése"
+	},
+	"logs.filter.from": {
+		"defaultMessage": "Tól"
+	},
+	"logs.filter.to": {
+		"defaultMessage": "Ig"
+	},
+	"logs.pagination.next": {
+		"defaultMessage": "Következő"
+	},
+	"logs.pagination.page-of": {
+		"defaultMessage": "{page} / {total}"
+	},
+	"logs.pagination.prev": {
+		"defaultMessage": "Előző"
+	},
+	"logs.pagination.range": {
+		"defaultMessage": "{first}-{last} / {total}"
+	},
+	"logs.waf": {
+		"defaultMessage": "OpenAppSec naplók"
+	},
 	"nginx-config.label": {
 		"defaultMessage": "Egyéni Nginx konfiguráció"
 	},

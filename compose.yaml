@@ -31,6 +31,8 @@ services:
 #      - 2a10:50c0::bad2:ff # Public AdGuard DNS
     volumes:
       - "/opt/npmplus:/data"
+#      - "/opt/openappsec/logs:/data/openappsec-logs:ro" # optional, enables the WAF log tab in the in-app Logs viewer (requires the openappsec-agent container further down to be enabled and writing logs to /opt/openappsec/logs)
+#      - "/opt/crowdsec/conf:/data/crowdsec-conf:ro" # optional, enables the CrowdSec decisions/alerts tab in the in-app Logs viewer (requires the crowdsec container further down; backend reads local_api_credentials.yaml to talk to LAPI - no manual cscli setup needed)
 #      - "/var/www:/var/www" # optional, if you want to use NPMplus directly as a webserver for html/php
 #      - "/path/to/old/npm/letsencrypt/folder:/etc/letsencrypt" # Only needed for initial migration from original nginx-proxy-manager to this fork, remove after migration
 #      - "shm-volume:/dev/shm/check-point" # required if you want to use the openappsec attachment module, also enable this volume at the end of this compose.yaml
@@ -77,6 +79,7 @@ services:
 #      - "NGINX_DISABLE_TLS12=true" # disabled TLS1.2, default false, TLS1.2 can still be assumed to be secure with the settings NPMplus uses, but if you know all your clients support TLS1.3 this allows you to disable it
 #      - "NGINX_TRUST_SECPR1=false" # enables secp521r1:secp384r1:secp256r1, default true, disable if all your clients support X25519MLKEM768 or x25519
 #      - "DISABLE_NGINX_BEAUTIFIER=true" # disables nginxbeautifier, useful when it fails parsing non-standard custom/advanced configs, default false
+#      - "ENABLE_LOGS_VIEWER=true" # opt-in: enables the in-app Logs viewer (admin-only menu entry, /api/logs/* routes, SSE live-tail). Requires LOGROTATE=true for nginx logs and the matching read-only volume mounts above for openappsec/crowdsec data. Default false (feature stays fully invisible: no menu, no routes, no /api surface).
 #      - "ADMIN_UI_DISABLE_COEP=true" # strips the "Cross-Origin-Embedder-Policy: require-corp" header from the admin UI (npmplus.conf) so password manager browser extensions (Bitwarden, 1Password, ...) can inject their autofill overlays on the login form. Admin UI is typically reached from a LAN / reverse-proxy context. CSP and CORP stay intact. Default false.
 #      - "LOGROTATE=true" # Enables writing http access logs to /opt/npmplus/nginx/logs/access.log, stream access logs to /opt/npmplus/nginx/logs/stream.log and enables daily logrotation, default false
 #      - "LOGROTATIONS=7" # Set how often the access.log should be rotated until it is deleted, default 3

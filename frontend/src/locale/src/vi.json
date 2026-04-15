@@ -389,6 +389,108 @@
 	"login.title": {
 		"defaultMessage": "Đăng nhập vào tài khoản của bạn"
 	},
+	"logs": {
+		"defaultMessage": "Nhật ký"
+	},
+	"logs.access": {
+		"defaultMessage": "Nhật ký truy cập"
+	},
+	"logs.action.copied": {
+		"defaultMessage": "Đã sao chép!"
+	},
+	"logs.action.copy": {
+		"defaultMessage": "Sao chép vào bộ nhớ tạm"
+	},
+	"logs.column.action": {
+		"defaultMessage": "Hành động"
+	},
+	"logs.column.bytes": {
+		"defaultMessage": "Byte"
+	},
+	"logs.column.client-ip": {
+		"defaultMessage": "IP khách"
+	},
+	"logs.column.duration": {
+		"defaultMessage": "Thời lượng"
+	},
+	"logs.column.host": {
+		"defaultMessage": "Máy chủ"
+	},
+	"logs.column.incident-type": {
+		"defaultMessage": "Loại sự cố"
+	},
+	"logs.column.level": {
+		"defaultMessage": "Cấp độ"
+	},
+	"logs.column.matched": {
+		"defaultMessage": "Khớp"
+	},
+	"logs.column.message": {
+		"defaultMessage": "Thông báo"
+	},
+	"logs.column.method": {
+		"defaultMessage": "Phương thức"
+	},
+	"logs.column.origin": {
+		"defaultMessage": "Nguồn gốc"
+	},
+	"logs.column.path": {
+		"defaultMessage": "Đường dẫn"
+	},
+	"logs.column.scenario": {
+		"defaultMessage": "Kịch bản"
+	},
+	"logs.column.scope": {
+		"defaultMessage": "Phạm vi"
+	},
+	"logs.column.server": {
+		"defaultMessage": "Máy chủ"
+	},
+	"logs.column.severity": {
+		"defaultMessage": "Mức độ nghiêm trọng"
+	},
+	"logs.column.status": {
+		"defaultMessage": "Trạng thái"
+	},
+	"logs.column.time": {
+		"defaultMessage": "Thời gian"
+	},
+	"logs.column.value": {
+		"defaultMessage": "Giá trị"
+	},
+	"logs.crowdsec": {
+		"defaultMessage": "Quyết định CrowdSec"
+	},
+	"logs.crowdsec.unavailable": {
+		"defaultMessage": "CrowdSec chưa được cấu hình. Gắn /opt/crowdsec/conf vào container NPMplus để bật chế độ xem này."
+	},
+	"logs.errors": {
+		"defaultMessage": "Nhật ký lỗi"
+	},
+	"logs.filter.clear": {
+		"defaultMessage": "Xóa bộ lọc ngày"
+	},
+	"logs.filter.from": {
+		"defaultMessage": "Từ"
+	},
+	"logs.filter.to": {
+		"defaultMessage": "Đến"
+	},
+	"logs.pagination.next": {
+		"defaultMessage": "Tiếp"
+	},
+	"logs.pagination.page-of": {
+		"defaultMessage": "{page} / {total}"
+	},
+	"logs.pagination.prev": {
+		"defaultMessage": "Trước"
+	},
+	"logs.pagination.range": {
+		"defaultMessage": "Hiển thị {first}-{last} trong {total}"
+	},
+	"logs.waf": {
+		"defaultMessage": "Nhật ký OpenAppSec"
+	},
 	"nginx-config.label": {
 		"defaultMessage": "Cấu hình Nginx tùy chỉnh"
 	},

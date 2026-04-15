@@ -389,6 +389,108 @@
 	"login.title": {
 		"defaultMessage": "Logáil isteach i do chuntas"
 	},
+	"logs": {
+		"defaultMessage": "Logaí"
+	},
+	"logs.access": {
+		"defaultMessage": "Logaí rochtana"
+	},
+	"logs.action.copied": {
+		"defaultMessage": "Cóipeáilte!"
+	},
+	"logs.action.copy": {
+		"defaultMessage": "Cóipeáil chuig an ngearrthaisce"
+	},
+	"logs.column.action": {
+		"defaultMessage": "Gníomh"
+	},
+	"logs.column.bytes": {
+		"defaultMessage": "Bearta"
+	},
+	"logs.column.client-ip": {
+		"defaultMessage": "IP cliant"
+	},
+	"logs.column.duration": {
+		"defaultMessage": "Fad"
+	},
+	"logs.column.host": {
+		"defaultMessage": "Óstach"
+	},
+	"logs.column.incident-type": {
+		"defaultMessage": "Cineál teagmhais"
+	},
+	"logs.column.level": {
+		"defaultMessage": "Leibhéal"
+	},
+	"logs.column.matched": {
+		"defaultMessage": "Meaitseáil"
+	},
+	"logs.column.message": {
+		"defaultMessage": "Teachtaireacht"
+	},
+	"logs.column.method": {
+		"defaultMessage": "Modh"
+	},
+	"logs.column.origin": {
+		"defaultMessage": "Bunús"
+	},
+	"logs.column.path": {
+		"defaultMessage": "Conair"
+	},
+	"logs.column.scenario": {
+		"defaultMessage": "Cás"
+	},
+	"logs.column.scope": {
+		"defaultMessage": "Raon feidhme"
+	},
+	"logs.column.server": {
+		"defaultMessage": "Freastalaí"
+	},
+	"logs.column.severity": {
+		"defaultMessage": "Déine"
+	},
+	"logs.column.status": {
+		"defaultMessage": "Stádas"
+	},
+	"logs.column.time": {
+		"defaultMessage": "Am"
+	},
+	"logs.column.value": {
+		"defaultMessage": "Luach"
+	},
+	"logs.crowdsec": {
+		"defaultMessage": "Cinntí CrowdSec"
+	},
+	"logs.crowdsec.unavailable": {
+		"defaultMessage": "Níl CrowdSec cumraithe. Cuir /opt/crowdsec/conf isteach sa choimeádán NPMplus chun an t-amharc seo a chumasú."
+	},
+	"logs.errors": {
+		"defaultMessage": "Logaí earráide"
+	},
+	"logs.filter.clear": {
+		"defaultMessage": "Glan scagaire dáta"
+	},
+	"logs.filter.from": {
+		"defaultMessage": "Ó"
+	},
+	"logs.filter.to": {
+		"defaultMessage": "Go"
+	},
+	"logs.pagination.next": {
+		"defaultMessage": "Ar aghaidh"
+	},
+	"logs.pagination.page-of": {
+		"defaultMessage": "{page} / {total}"
+	},
+	"logs.pagination.prev": {
+		"defaultMessage": "Siar"
+	},
+	"logs.pagination.range": {
+		"defaultMessage": "{first}-{last} as {total}"
+	},
+	"logs.waf": {
+		"defaultMessage": "Logaí OpenAppSec"
+	},
 	"nginx-config.label": {
 		"defaultMessage": "Cumraíocht Nginx Saincheaptha"
 	},

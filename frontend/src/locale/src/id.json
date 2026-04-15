@@ -389,6 +389,108 @@
 	"login.title": {
 		"defaultMessage": "Masuk ke akun Anda"
 	},
+	"logs": {
+		"defaultMessage": "Log"
+	},
+	"logs.access": {
+		"defaultMessage": "Log Akses"
+	},
+	"logs.action.copied": {
+		"defaultMessage": "Tersalin!"
+	},
+	"logs.action.copy": {
+		"defaultMessage": "Salin ke clipboard"
+	},
+	"logs.column.action": {
+		"defaultMessage": "Aksi"
+	},
+	"logs.column.bytes": {
+		"defaultMessage": "Bita"
+	},
+	"logs.column.client-ip": {
+		"defaultMessage": "IP Klien"
+	},
+	"logs.column.duration": {
+		"defaultMessage": "Durasi"
+	},
+	"logs.column.host": {
+		"defaultMessage": "Host"
+	},
+	"logs.column.incident-type": {
+		"defaultMessage": "Jenis Insiden"
+	},
+	"logs.column.level": {
+		"defaultMessage": "Tingkat"
+	},
+	"logs.column.matched": {
+		"defaultMessage": "Cocok"
+	},
+	"logs.column.message": {
+		"defaultMessage": "Pesan"
+	},
+	"logs.column.method": {
+		"defaultMessage": "Metode"
+	},
+	"logs.column.origin": {
+		"defaultMessage": "Asal"
+	},
+	"logs.column.path": {
+		"defaultMessage": "Path"
+	},
+	"logs.column.scenario": {
+		"defaultMessage": "Skenario"
+	},
+	"logs.column.scope": {
+		"defaultMessage": "Cakupan"
+	},
+	"logs.column.server": {
+		"defaultMessage": "Server"
+	},
+	"logs.column.severity": {
+		"defaultMessage": "Tingkat Keparahan"
+	},
+	"logs.column.status": {
+		"defaultMessage": "Status"
+	},
+	"logs.column.time": {
+		"defaultMessage": "Waktu"
+	},
+	"logs.column.value": {
+		"defaultMessage": "Nilai"
+	},
+	"logs.crowdsec": {
+		"defaultMessage": "Keputusan CrowdSec"
+	},
+	"logs.crowdsec.unavailable": {
+		"defaultMessage": "CrowdSec belum dikonfigurasi. Mount /opt/crowdsec/conf ke dalam kontainer NPMplus untuk mengaktifkan tampilan ini."
+	},
+	"logs.errors": {
+		"defaultMessage": "Log Error"
+	},
+	"logs.filter.clear": {
+		"defaultMessage": "Hapus filter tanggal"
+	},
+	"logs.filter.from": {
+		"defaultMessage": "Dari"
+	},
+	"logs.filter.to": {
+		"defaultMessage": "Sampai"
+	},
+	"logs.pagination.next": {
+		"defaultMessage": "Berikutnya"
+	},
+	"logs.pagination.page-of": {
+		"defaultMessage": "{page} / {total}"
+	},
+	"logs.pagination.prev": {
+		"defaultMessage": "Sebelumnya"
+	},
+	"logs.pagination.range": {
+		"defaultMessage": "Menampilkan {first}-{last} dari {total}"
+	},
+	"logs.waf": {
+		"defaultMessage": "Log OpenAppSec"
+	},
 	"nginx-config.label": {
 		"defaultMessage": "Konfigurasi Nginx Kustom"
 	},

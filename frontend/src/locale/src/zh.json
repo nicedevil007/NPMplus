@@ -395,6 +395,108 @@
 	"login.title": {
 		"defaultMessage": "登录您的账户"
 	},
+	"logs": {
+		"defaultMessage": "日志"
+	},
+	"logs.access": {
+		"defaultMessage": "访问日志"
+	},
+	"logs.action.copied": {
+		"defaultMessage": "已复制！"
+	},
+	"logs.action.copy": {
+		"defaultMessage": "复制到剪贴板"
+	},
+	"logs.column.action": {
+		"defaultMessage": "操作"
+	},
+	"logs.column.bytes": {
+		"defaultMessage": "字节"
+	},
+	"logs.column.client-ip": {
+		"defaultMessage": "客户端 IP"
+	},
+	"logs.column.duration": {
+		"defaultMessage": "持续时间"
+	},
+	"logs.column.host": {
+		"defaultMessage": "主机"
+	},
+	"logs.column.incident-type": {
+		"defaultMessage": "事件类型"
+	},
+	"logs.column.level": {
+		"defaultMessage": "级别"
+	},
+	"logs.column.matched": {
+		"defaultMessage": "匹配"
+	},
+	"logs.column.message": {
+		"defaultMessage": "消息"
+	},
+	"logs.column.method": {
+		"defaultMessage": "方法"
+	},
+	"logs.column.origin": {
+		"defaultMessage": "来源"
+	},
+	"logs.column.path": {
+		"defaultMessage": "路径"
+	},
+	"logs.column.scenario": {
+		"defaultMessage": "场景"
+	},
+	"logs.column.scope": {
+		"defaultMessage": "范围"
+	},
+	"logs.column.server": {
+		"defaultMessage": "服务器"
+	},
+	"logs.column.severity": {
+		"defaultMessage": "严重性"
+	},
+	"logs.column.status": {
+		"defaultMessage": "状态"
+	},
+	"logs.column.time": {
+		"defaultMessage": "时间"
+	},
+	"logs.column.value": {
+		"defaultMessage": "值"
+	},
+	"logs.crowdsec": {
+		"defaultMessage": "CrowdSec 决策"
+	},
+	"logs.crowdsec.unavailable": {
+		"defaultMessage": "CrowdSec 未配置。请将 /opt/crowdsec/conf 挂载到 NPMplus 容器中以启用此视图。"
+	},
+	"logs.errors": {
+		"defaultMessage": "错误日志"
+	},
+	"logs.filter.clear": {
+		"defaultMessage": "清除日期筛选"
+	},
+	"logs.filter.from": {
+		"defaultMessage": "从"
+	},
+	"logs.filter.to": {
+		"defaultMessage": "至"
+	},
+	"logs.pagination.next": {
+		"defaultMessage": "下一页"
+	},
+	"logs.pagination.page-of": {
+		"defaultMessage": "{page} / {total}"
+	},
+	"logs.pagination.prev": {
+		"defaultMessage": "上一页"
+	},
+	"logs.pagination.range": {
+		"defaultMessage": "显示第 {first}-{last} 项，共 {total} 项"
+	},
+	"logs.waf": {
+		"defaultMessage": "OpenAppSec 日志"
+	},
 	"nginx-config.label": {
 		"defaultMessage": "自定义 Nginx 配置"
 	},

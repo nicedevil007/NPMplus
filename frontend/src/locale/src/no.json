@@ -479,6 +479,108 @@
 	"login.title": {
 		"defaultMessage": "Logg på kontoen din"
 	},
+	"logs": {
+		"defaultMessage": "Logger"
+	},
+	"logs.access": {
+		"defaultMessage": "Tilgangslogger"
+	},
+	"logs.action.copied": {
+		"defaultMessage": "Kopiert!"
+	},
+	"logs.action.copy": {
+		"defaultMessage": "Kopier til utklippstavle"
+	},
+	"logs.column.action": {
+		"defaultMessage": "Handling"
+	},
+	"logs.column.bytes": {
+		"defaultMessage": "Byte"
+	},
+	"logs.column.client-ip": {
+		"defaultMessage": "Klient-IP"
+	},
+	"logs.column.duration": {
+		"defaultMessage": "Varighet"
+	},
+	"logs.column.host": {
+		"defaultMessage": "Vert"
+	},
+	"logs.column.incident-type": {
+		"defaultMessage": "Hendelsestype"
+	},
+	"logs.column.level": {
+		"defaultMessage": "Nivå"
+	},
+	"logs.column.matched": {
+		"defaultMessage": "Treff"
+	},
+	"logs.column.message": {
+		"defaultMessage": "Melding"
+	},
+	"logs.column.method": {
+		"defaultMessage": "Metode"
+	},
+	"logs.column.origin": {
+		"defaultMessage": "Opprinnelse"
+	},
+	"logs.column.path": {
+		"defaultMessage": "Sti"
+	},
+	"logs.column.scenario": {
+		"defaultMessage": "Scenario"
+	},
+	"logs.column.scope": {
+		"defaultMessage": "Omfang"
+	},
+	"logs.column.server": {
+		"defaultMessage": "Server"
+	},
+	"logs.column.severity": {
+		"defaultMessage": "Alvorlighetsgrad"
+	},
+	"logs.column.status": {
+		"defaultMessage": "Status"
+	},
+	"logs.column.time": {
+		"defaultMessage": "Tid"
+	},
+	"logs.column.value": {
+		"defaultMessage": "Verdi"
+	},
+	"logs.crowdsec": {
+		"defaultMessage": "CrowdSec-beslutninger"
+	},
+	"logs.crowdsec.unavailable": {
+		"defaultMessage": "CrowdSec er ikke konfigurert. Monter /opt/crowdsec/conf inn i NPMplus-containeren for å aktivere denne visningen."
+	},
+	"logs.errors": {
+		"defaultMessage": "Feillogger"
+	},
+	"logs.filter.clear": {
+		"defaultMessage": "Fjern datofilter"
+	},
+	"logs.filter.from": {
+		"defaultMessage": "Fra"
+	},
+	"logs.filter.to": {
+		"defaultMessage": "Til"
+	},
+	"logs.pagination.next": {
+		"defaultMessage": "Neste"
+	},
+	"logs.pagination.page-of": {
+		"defaultMessage": "{page} / {total}"
+	},
+	"logs.pagination.prev": {
+		"defaultMessage": "Forrige"
+	},
+	"logs.pagination.range": {
+		"defaultMessage": "{first}-{last} av {total}"
+	},
+	"logs.waf": {
+		"defaultMessage": "OpenAppSec logger"
+	},
 	"nginx-config.label": {
 		"defaultMessage": "Egendefinert Nginx-konfigurasjon"
 	},

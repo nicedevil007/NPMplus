@@ -479,6 +479,108 @@
 	"login.title": {
 		"defaultMessage": "Login to your account"
 	},
+	"logs": {
+		"defaultMessage": "Logid"
+	},
+	"logs.access": {
+		"defaultMessage": "Juurdepääsu logid"
+	},
+	"logs.action.copied": {
+		"defaultMessage": "Kopeeritud!"
+	},
+	"logs.action.copy": {
+		"defaultMessage": "Kopeeri lõikelauale"
+	},
+	"logs.column.action": {
+		"defaultMessage": "Toiming"
+	},
+	"logs.column.bytes": {
+		"defaultMessage": "Baidid"
+	},
+	"logs.column.client-ip": {
+		"defaultMessage": "Kliendi IP"
+	},
+	"logs.column.duration": {
+		"defaultMessage": "Kestus"
+	},
+	"logs.column.host": {
+		"defaultMessage": "Host"
+	},
+	"logs.column.incident-type": {
+		"defaultMessage": "Intsidendi tüüp"
+	},
+	"logs.column.level": {
+		"defaultMessage": "Tase"
+	},
+	"logs.column.matched": {
+		"defaultMessage": "Vaste"
+	},
+	"logs.column.message": {
+		"defaultMessage": "Sõnum"
+	},
+	"logs.column.method": {
+		"defaultMessage": "Meetod"
+	},
+	"logs.column.origin": {
+		"defaultMessage": "Päritolu"
+	},
+	"logs.column.path": {
+		"defaultMessage": "Tee"
+	},
+	"logs.column.scenario": {
+		"defaultMessage": "Stsenaarium"
+	},
+	"logs.column.scope": {
+		"defaultMessage": "Ulatus"
+	},
+	"logs.column.server": {
+		"defaultMessage": "Server"
+	},
+	"logs.column.severity": {
+		"defaultMessage": "Raskusaste"
+	},
+	"logs.column.status": {
+		"defaultMessage": "Olek"
+	},
+	"logs.column.time": {
+		"defaultMessage": "Aeg"
+	},
+	"logs.column.value": {
+		"defaultMessage": "Väärtus"
+	},
+	"logs.crowdsec": {
+		"defaultMessage": "CrowdSec otsused"
+	},
+	"logs.crowdsec.unavailable": {
+		"defaultMessage": "CrowdSec pole seadistatud. Ühendage /opt/crowdsec/conf NPMplus konteinerisse, et see vaade aktiveerida."
+	},
+	"logs.errors": {
+		"defaultMessage": "Vealogid"
+	},
+	"logs.filter.clear": {
+		"defaultMessage": "Tühjenda kuupäevafilter"
+	},
+	"logs.filter.from": {
+		"defaultMessage": "Alates"
+	},
+	"logs.filter.to": {
+		"defaultMessage": "Kuni"
+	},
+	"logs.pagination.next": {
+		"defaultMessage": "Järgmine"
+	},
+	"logs.pagination.page-of": {
+		"defaultMessage": "{page} / {total}"
+	},
+	"logs.pagination.prev": {
+		"defaultMessage": "Eelmine"
+	},
+	"logs.pagination.range": {
+		"defaultMessage": "{first}-{last} / {total}"
+	},
+	"logs.waf": {
+		"defaultMessage": "OpenAppSec logid"
+	},
 	"nginx-config.label": {
 		"defaultMessage": "Custom Nginx Configuration"
 	},

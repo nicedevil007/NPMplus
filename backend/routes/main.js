@@ -3,6 +3,7 @@ import errs from "../lib/error.js";
 import pjson from "../package.json" with { type: "json" };
 import { isSetup } from "../setup.js";
 import auditLogRoutes from "./audit-log.js";
+import logsRoutes from "./logs.js";
 import accessListsRoutes from "./nginx/access_lists.js";
 import certificatesHostsRoutes from "./nginx/certificates.js";
 import deadHostsRoutes from "./nginx/dead_hosts.js";
@@ -31,6 +32,8 @@ const isOIDCenabled = !!(
 	process.env.OIDC_CLIENT_SECRET
 );
 
+const isLogsViewerEnabled = process.env.ENABLE_LOGS_VIEWER === "true";
+
 /**
  * Health Check
  * GET /api
@@ -42,6 +45,7 @@ router.get(["/api", "/api/"], async (_, res /*, next*/) => {
 		version: pjson.version,
 		password: process.env.OIDC_DISABLE_PASSWORD === "false",
 		oidc: isOIDCenabled,
+		logs_viewer: isLogsViewerEnabled,
 	});
 });
 
@@ -51,6 +55,7 @@ router.use("/api/tokens", tokensRoutes);
 if (isOIDCenabled) router.use("/api/oidc", oidcRoutes);
 router.use("/api/users", usersRoutes);
 router.use("/api/audit-log", auditLogRoutes);
+if (isLogsViewerEnabled) router.use("/api/logs", logsRoutes);
 router.use("/api/reports", reportsRoutes);
 router.use("/api/settings", settingsRoutes);
 router.use("/api/version", versionRoutes);

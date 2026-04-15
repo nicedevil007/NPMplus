@@ -1,6 +1,7 @@
 import {
 	IconBook,
 	IconDeviceDesktop,
+	IconFileText,
 	IconHome,
 	IconLock,
 	IconSettings,
@@ -10,6 +11,7 @@ import {
 import cn from "classnames";
 import React from "react";
 import { HasPermission, NavLink } from "src/components";
+import { useHealth } from "src/hooks";
 import { T } from "src/locale";
 import {
 	ACCESS_LISTS,
@@ -31,6 +33,7 @@ interface MenuItem {
 	items?: MenuItem[];
 	permissionSection?: Section | typeof ADMIN;
 	permission?: typeof VIEW | typeof MANAGE;
+	divider?: boolean;
 }
 
 const menuItems: MenuItem[] = [
@@ -90,10 +93,17 @@ const menuItems: MenuItem[] = [
 		permissionSection: ADMIN,
 	},
 	{
-		to: "/audit-log",
-		icon: IconBook,
-		label: "auditlogs",
+		icon: IconFileText,
+		label: "logs",
 		permissionSection: ADMIN,
+		items: [
+			{ to: "/audit-log", label: "auditlogs", permissionSection: ADMIN },
+			{ label: "divider-audit", divider: true },
+			{ to: "/logs/access", label: "logs.access", permissionSection: ADMIN },
+			{ to: "/logs/errors", label: "logs.errors", permissionSection: ADMIN },
+			{ to: "/logs/waf", label: "logs.waf", permissionSection: ADMIN },
+			{ to: "/logs/crowdsec", label: "logs.crowdsec", permissionSection: ADMIN },
+		],
 	},
 	{
 		to: "/settings",
@@ -143,12 +153,12 @@ const getMenuDropown = (item: MenuItem, onClick?: () => void) => {
 					className="nav-link dropdown-toggle"
 					href={item.to}
 					data-bs-toggle="dropdown"
-					data-bs-auto-close="outside"
+					data-bs-auto-close="true"
 					aria-expanded="false"
 					role="button"
 				>
 					<span className="nav-link-icon d-md-none d-lg-inline-block">
-						<IconDeviceDesktop height={24} width={24} />
+						{React.createElement(item.icon ?? IconDeviceDesktop, { height: 24, width: 24 })}
 					</span>
 					<span className="nav-link-title">
 						<T id={item.label} />
@@ -156,6 +166,9 @@ const getMenuDropown = (item: MenuItem, onClick?: () => void) => {
 				</a>
 				<div className="dropdown-menu">
 					{item.items?.map((subitem, idx) => {
+						if (subitem.divider) {
+							return <hr key={`div-${idx}`} className="dropdown-divider" />;
+						}
 						return (
 							<HasPermission
 								key={`${idx}-${subitem.to}`}
@@ -176,6 +189,22 @@ const getMenuDropown = (item: MenuItem, onClick?: () => void) => {
 };
 
 export function SiteMenu() {
+	const health = useHealth();
+	// When the logs viewer is disabled, fall back to showing Audit-Log as a top-level entry
+	// (the unmodified upstream layout). When enabled, the logs dropdown subsumes it.
+	const items = health.data?.logsViewer === true
+		? menuItems
+		: menuItems
+			.filter((i) => i.label !== "logs")
+			.concat([
+				{
+					to: "/audit-log",
+					icon: IconBook,
+					label: "auditlogs",
+					permissionSection: ADMIN,
+				},
+			]);
+
 	const closeMenu = () =>
 		setTimeout(() => {
 			const navbarToggler = document.querySelector<HTMLElement>(".navbar-toggler");
@@ -193,8 +222,8 @@ export function SiteMenu() {
 						<div className="row flex-column flex-md-row flex-fill align-items-center">
 							<div className="col">
 								<ul className="navbar-nav">
-									{menuItems.length > 0 &&
-										menuItems.map((item) => {
+									{items.length > 0 &&
+										items.map((item) => {
 											return getMenuItem(item, closeMenu);
 										})}
 								</ul>

@@ -389,6 +389,108 @@
 	"login.title": {
 		"defaultMessage": "Авторизация"
 	},
+	"logs": {
+		"defaultMessage": "Журналы"
+	},
+	"logs.access": {
+		"defaultMessage": "Журналы доступа"
+	},
+	"logs.action.copied": {
+		"defaultMessage": "Скопировано!"
+	},
+	"logs.action.copy": {
+		"defaultMessage": "Копировать в буфер обмена"
+	},
+	"logs.column.action": {
+		"defaultMessage": "Действие"
+	},
+	"logs.column.bytes": {
+		"defaultMessage": "Байты"
+	},
+	"logs.column.client-ip": {
+		"defaultMessage": "IP клиента"
+	},
+	"logs.column.duration": {
+		"defaultMessage": "Длительность"
+	},
+	"logs.column.host": {
+		"defaultMessage": "Хост"
+	},
+	"logs.column.incident-type": {
+		"defaultMessage": "Тип инцидента"
+	},
+	"logs.column.level": {
+		"defaultMessage": "Уровень"
+	},
+	"logs.column.matched": {
+		"defaultMessage": "Совпадение"
+	},
+	"logs.column.message": {
+		"defaultMessage": "Сообщение"
+	},
+	"logs.column.method": {
+		"defaultMessage": "Метод"
+	},
+	"logs.column.origin": {
+		"defaultMessage": "Источник"
+	},
+	"logs.column.path": {
+		"defaultMessage": "Путь"
+	},
+	"logs.column.scenario": {
+		"defaultMessage": "Сценарий"
+	},
+	"logs.column.scope": {
+		"defaultMessage": "Область"
+	},
+	"logs.column.server": {
+		"defaultMessage": "Сервер"
+	},
+	"logs.column.severity": {
+		"defaultMessage": "Критичность"
+	},
+	"logs.column.status": {
+		"defaultMessage": "Статус"
+	},
+	"logs.column.time": {
+		"defaultMessage": "Время"
+	},
+	"logs.column.value": {
+		"defaultMessage": "Значение"
+	},
+	"logs.crowdsec": {
+		"defaultMessage": "Решения CrowdSec"
+	},
+	"logs.crowdsec.unavailable": {
+		"defaultMessage": "CrowdSec не настроен. Подключите /opt/crowdsec/conf к контейнеру NPMplus, чтобы включить это представление."
+	},
+	"logs.errors": {
+		"defaultMessage": "Журналы ошибок"
+	},
+	"logs.filter.clear": {
+		"defaultMessage": "Очистить фильтр дат"
+	},
+	"logs.filter.from": {
+		"defaultMessage": "С"
+	},
+	"logs.filter.to": {
+		"defaultMessage": "По"
+	},
+	"logs.pagination.next": {
+		"defaultMessage": "След."
+	},
+	"logs.pagination.page-of": {
+		"defaultMessage": "{page} / {total}"
+	},
+	"logs.pagination.prev": {
+		"defaultMessage": "Пред."
+	},
+	"logs.pagination.range": {
+		"defaultMessage": "{first}-{last} из {total}"
+	},
+	"logs.waf": {
+		"defaultMessage": "Журналы OpenAppSec"
+	},
 	"nginx-config.label": {
 		"defaultMessage": "Своя Nginx-конфигурация"
 	},

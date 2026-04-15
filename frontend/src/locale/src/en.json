@@ -518,6 +518,108 @@
 	"login.title": {
 		"defaultMessage": "Login to your account"
 	},
+	"logs": {
+		"defaultMessage": "Logs"
+	},
+	"logs.access": {
+		"defaultMessage": "Access Logs"
+	},
+	"logs.action.copied": {
+		"defaultMessage": "Copied!"
+	},
+	"logs.action.copy": {
+		"defaultMessage": "Copy to clipboard"
+	},
+	"logs.column.action": {
+		"defaultMessage": "Action"
+	},
+	"logs.column.bytes": {
+		"defaultMessage": "Bytes"
+	},
+	"logs.column.client-ip": {
+		"defaultMessage": "Client IP"
+	},
+	"logs.column.duration": {
+		"defaultMessage": "Duration"
+	},
+	"logs.column.host": {
+		"defaultMessage": "Host"
+	},
+	"logs.column.incident-type": {
+		"defaultMessage": "Incident Type"
+	},
+	"logs.column.level": {
+		"defaultMessage": "Level"
+	},
+	"logs.column.matched": {
+		"defaultMessage": "Matched"
+	},
+	"logs.column.message": {
+		"defaultMessage": "Message"
+	},
+	"logs.column.method": {
+		"defaultMessage": "Method"
+	},
+	"logs.column.origin": {
+		"defaultMessage": "Origin"
+	},
+	"logs.column.path": {
+		"defaultMessage": "Path"
+	},
+	"logs.column.scenario": {
+		"defaultMessage": "Scenario"
+	},
+	"logs.column.scope": {
+		"defaultMessage": "Scope"
+	},
+	"logs.column.server": {
+		"defaultMessage": "Server"
+	},
+	"logs.column.severity": {
+		"defaultMessage": "Severity"
+	},
+	"logs.column.status": {
+		"defaultMessage": "Status"
+	},
+	"logs.column.time": {
+		"defaultMessage": "Time"
+	},
+	"logs.column.value": {
+		"defaultMessage": "Value"
+	},
+	"logs.crowdsec": {
+		"defaultMessage": "CrowdSec Decisions"
+	},
+	"logs.crowdsec.unavailable": {
+		"defaultMessage": "CrowdSec is not configured. Mount /opt/crowdsec/conf into the NPMplus container to enable this view."
+	},
+	"logs.errors": {
+		"defaultMessage": "Error Logs"
+	},
+	"logs.filter.clear": {
+		"defaultMessage": "Clear date filter"
+	},
+	"logs.filter.from": {
+		"defaultMessage": "From"
+	},
+	"logs.filter.to": {
+		"defaultMessage": "To"
+	},
+	"logs.pagination.next": {
+		"defaultMessage": "Next"
+	},
+	"logs.pagination.page-of": {
+		"defaultMessage": "{page} / {total}"
+	},
+	"logs.pagination.prev": {
+		"defaultMessage": "Prev"
+	},
+	"logs.pagination.range": {
+		"defaultMessage": "Showing {first}–{last} of {total}"
+	},
+	"logs.waf": {
+		"defaultMessage": "OpenAppSec Logs"
+	},
 	"mtls-certificate": {
 		"defaultMessage": "mTLS Certificate"
 	},

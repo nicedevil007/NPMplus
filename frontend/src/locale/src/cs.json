@@ -473,6 +473,108 @@
 	"login.title": {
 		"defaultMessage": "Přihlaste se ke svému účtu"
 	},
+	"logs": {
+		"defaultMessage": "Protokoly"
+	},
+	"logs.access": {
+		"defaultMessage": "Protokoly přístupu"
+	},
+	"logs.action.copied": {
+		"defaultMessage": "Zkopírováno!"
+	},
+	"logs.action.copy": {
+		"defaultMessage": "Kopírovat do schránky"
+	},
+	"logs.column.action": {
+		"defaultMessage": "Akce"
+	},
+	"logs.column.bytes": {
+		"defaultMessage": "Bajty"
+	},
+	"logs.column.client-ip": {
+		"defaultMessage": "IP klienta"
+	},
+	"logs.column.duration": {
+		"defaultMessage": "Trvání"
+	},
+	"logs.column.host": {
+		"defaultMessage": "Host"
+	},
+	"logs.column.incident-type": {
+		"defaultMessage": "Typ incidentu"
+	},
+	"logs.column.level": {
+		"defaultMessage": "Úroveň"
+	},
+	"logs.column.matched": {
+		"defaultMessage": "Shoda"
+	},
+	"logs.column.message": {
+		"defaultMessage": "Zpráva"
+	},
+	"logs.column.method": {
+		"defaultMessage": "Metoda"
+	},
+	"logs.column.origin": {
+		"defaultMessage": "Původ"
+	},
+	"logs.column.path": {
+		"defaultMessage": "Cesta"
+	},
+	"logs.column.scenario": {
+		"defaultMessage": "Scénář"
+	},
+	"logs.column.scope": {
+		"defaultMessage": "Rozsah"
+	},
+	"logs.column.server": {
+		"defaultMessage": "Server"
+	},
+	"logs.column.severity": {
+		"defaultMessage": "Závažnost"
+	},
+	"logs.column.status": {
+		"defaultMessage": "Stav"
+	},
+	"logs.column.time": {
+		"defaultMessage": "Čas"
+	},
+	"logs.column.value": {
+		"defaultMessage": "Hodnota"
+	},
+	"logs.crowdsec": {
+		"defaultMessage": "CrowdSec rozhodnutí"
+	},
+	"logs.crowdsec.unavailable": {
+		"defaultMessage": "CrowdSec není nakonfigurován. Připojte /opt/crowdsec/conf do kontejneru NPMplus pro aktivaci tohoto zobrazení."
+	},
+	"logs.errors": {
+		"defaultMessage": "Protokoly chyb"
+	},
+	"logs.filter.clear": {
+		"defaultMessage": "Vymazat filtr data"
+	},
+	"logs.filter.from": {
+		"defaultMessage": "Od"
+	},
+	"logs.filter.to": {
+		"defaultMessage": "Do"
+	},
+	"logs.pagination.next": {
+		"defaultMessage": "Další"
+	},
+	"logs.pagination.page-of": {
+		"defaultMessage": "{page} / {total}"
+	},
+	"logs.pagination.prev": {
+		"defaultMessage": "Předchozí"
+	},
+	"logs.pagination.range": {
+		"defaultMessage": "{first}-{last} z {total}"
+	},
+	"logs.waf": {
+		"defaultMessage": "OpenAppSec protokoly"
+	},
 	"nginx-config.label": {
 		"defaultMessage": "Vlastní Nginx konfigurace"
 	},
